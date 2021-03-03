@@ -17,6 +17,6 @@
 
 ## Used Tech 🚀
 
-Frontend: Gatsby
-Server+Hosting: Firebase
-Domain: 1&1
+Frontend: Gatsby (react + node.js)\
+Server+Hosting: Firebase\
+Domain: 1&1\

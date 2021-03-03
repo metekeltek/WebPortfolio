@@ -51575,7 +51575,7 @@ const Header = () => {
     distance: "30px"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "hero-title"
-  }, title || 'Hi, my name is', ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, title, ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "text-color-main"
   }, name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), subtitle)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
     left: isDesktop,
@@ -51583,7 +51583,7 @@ const Header = () => {
     duration: 1000,
     delay: 1000,
     distance: "30px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, cta != null && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "hero-cta"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "cta-btn cta-btn--hero"
@@ -51591,7 +51591,7 @@ const Header = () => {
     to: "about",
     smooth: true,
     duration: 1000
-  }, cta || 'Know more'))))));
+  }, cta))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -51975,10 +51975,10 @@ const headData = {
 }; // HERO DATA
 
 const heroData = {
-  title: '',
+  title: 'Hi, my name is',
   name: 'Mete Keltek',
   subtitle: 'I\'m a Software Engineer from Germany.',
-  cta: ''
+  cta: 'Know more'
 }; // ABOUT DATA
 
 const aboutData = {
