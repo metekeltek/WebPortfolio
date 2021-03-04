@@ -38,8 +38,18 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Mete Keltek
+          © {new Date().getFullYear()}
         </p>
+        <p className="footer__text">
+          Impressum:<br/><br/>
+          Mete Keltek<br/>
+          Schulstr. 59<br/>
+          50859 Cologne<br/>
+          Germany<br/>
+          <b>Tel.:</b> 0177/8183847<br/>
+          <b>E-Mail:</b> contact@metekeltek.com
+        </p>
+
 
       </Container>
     </footer>
