@@ -41,7 +41,7 @@ const Footer = () => {
           © {new Date().getFullYear()}
         </p>
         <p className="footer__text">
-          Impressum:<br/><br/>
+        <b>Impressum:</b><br/>
           Mete Keltek<br/>
           Schulstr. 59<br/>
           50859 Cologne<br/>
