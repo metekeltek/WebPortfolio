@@ -46,8 +46,8 @@ const Footer = () => {
           Schulstr. 59<br/>
           50859 Cologne<br/>
           Germany<br/>
-          <b>Tel.:</b> 0177/8183847<br/>
-          <b>E-Mail:</b> contact@metekeltek.com
+          <b>Tel.:</b> +49 177 8183847<br/>
+          <b>E-Mail:</b> keltekm@googlemail.com
         </p>
 
 
