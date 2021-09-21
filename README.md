@@ -1,6 +1,6 @@
 # My Web Portfolio ⚡️ 
 ## A clean, beautiful and responsive portfolio
-Live: metekeltek.com
+Live: www.metekeltek.com
 
 ## Features
 
